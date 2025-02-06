@@ -1,0 +1,395 @@
+@media (max-width:2560px ) {
+    .section1{
+        height: 50vh;
+    }
+    .section1 .row0 .myslides .row1 .col2 img {
+        width: 500px;
+        padding: 0 100px;
+    }
+}
+
+@media (max-width:1530px) {
+    .section1{
+        height: 100vh;
+    }
+}
+
+@media (max-width:1440px) {
+    .section1{
+        height: 75vh;
+    }
+
+    .section1 .row0 .myslides .row1 .col2 img {
+        width: 400px;
+        padding: 0 25px;
+    }
+}
+
+@media (max-width:1025px ) {
+
+    /* carrousel */
+    .section1{
+        height: 70vh;
+    }
+
+    .section1 .row0 .myslides .row1 {
+        padding-top: 90px;
+    }
+    .section1 .row0 .myslides .row1 .col1 .heading {
+        font-size: 35px;
+    }
+    .section1 .row0 .myslides .row1 .col2 img {
+        width: 300px;
+        padding: 0;
+    }
+
+    .heading {
+        margin: 14px 0;
+    }
+
+    /* latest blog */
+
+    .section3 .column1 .product .width {
+        width: 220px;
+        text-align: left;
+    }
+    /* latest design tools */
+    .section2 .column{
+        width: 90vw;
+    }
+    .section2 .column .horizontal img{
+        height: 120px;
+    }
+
+    /* footer */
+    .section4 .footer .col1{
+        width: 200px;
+    }
+
+    /* images */
+    .latest .column1 .latest .main-product img{
+        width: 190px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .latest .column1 .latest .main-product .width{
+        height: 140px;
+    }
+    
+}
+
+@media (max-width:768px){
+
+    /* navbar */
+    nav{
+        height: 60px;
+    }
+   
+    
+    nav .header{
+        margin: auto;
+        width: 100%;
+    }
+    nav .header .section1-nav{
+        padding: 10px 0;
+        
+    }
+    nav .header .section1-nav .logo{
+        font-weight: 550;
+        font-size: 20px;
+    }
+    nav .header .section1-nav .bar{
+        padding: 15px;
+    }
+    nav .header .section1-nav a{
+        padding: 15px;
+    }
+
+    nav .header .section1-nav .navbar{
+        position: absolute;
+        top: -450px;
+        z-index: 1;
+        right: 0;
+        left: 0;
+        background-color: white;
+        box-shadow: 0px 30px 25px -40px;
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s ease;
+    }
+    nav .header .section1-nav .bar{
+        display: block;
+    }
+    nav .header .section1-nav .navbar a{
+        font-size: large;
+        padding: 30px;
+    }
+
+    #check:checked ~ .navbar{
+        /* display: flex; */
+        top: 50px;
+    }
+
+    /* carrousel */
+    .section1{
+        height: 100vh;
+    }
+    .section1 .row0 .row1{
+        padding-top: 0px;
+        flex-direction: column;
+    }
+    .section1 .row0 .myslides .row1{
+        padding-top: 90px;
+    }
+
+    .section1 .row0 .myslides .row1 .col1{
+        width: 93%;
+    }
+    .section1 .row0 .myslides .row1 .col1 .top-heading {
+        font-size: 20px;
+    }
+    .section1 .row0 .myslides .row1 .col1 .heading {
+        font-size: 26px;
+    }
+    .section1 .row0 .myslides .row1 .col1 .content {
+        font-size: 13px;
+    }
+
+    .section1 .row0 .myslides .row1 .col1 .row-price .price {
+        padding: 5px 5px;
+    }
+
+
+
+    .section1 .row0 .row1 .col2 img{
+        padding: 10px 0;
+        width: 300px;
+    }
+
+    .section1 .row0 .row1 .col1{
+        width: 90%;
+    }
+    .section1 .row0 .row1 .col1 .top-heading{
+        font-size: 20px;
+    }
+    .section1 .row0 .row1 .col1 .heading{
+        font-size: 40px;
+        margin: 5px 0;
+    }
+
+    .section1 .row0 .row1 .col1 .buy button{
+        padding: 15px 20px;
+    }
+
+
+
+    /* new arrivals */
+    .section3 .column1 .product .prod .addtocart{
+        visibility: visible;
+    }
+
+    /* unlimited dinning table collection */
+    .section5 .row{
+        padding: 95px 0;
+    }
+
+
+    /* latest design tools */
+    .section2{
+        margin: auto;
+    }
+    .section2 .column{
+        flex-direction: column;
+        margin: auto;
+    }
+    .section2 .column .col1{
+        margin: 15px auto;
+    }
+    .section2 .column .horizontal{
+        display: block;
+        width: 300px;
+    }   
+
+
+    .section3 .column1{
+        width: 80vw;    
+    }
+
+    /* latest blog */
+
+    .margin-top-100 .column1 .latest .width{
+        width: 190px;
+    } 
+
+    .section3 .column1 .product .width .margin .name{
+        margin: 15px 0 10px 0;
+    }
+
+    /* footer */
+
+    .section4 .footer{
+        flex-direction: column;
+    }
+    
+    .section4 .footer .row1{
+        margin: auto;
+    }
+    .section4 .footer .row2{
+        margin: auto;
+    }
+
+    .section4 .footer .col1{
+        width: 300px;
+    }
+
+    /* images */
+    .latest .column1 .latest .main-product img{
+        width: 165px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .latest .column1 .latest .main-product .width{
+        height: 130px;
+    }
+
+    
+
+
+
+}
+
+@media (max-width:620px){
+    .section1{
+        height: 100vh;
+    }
+    .section1 .row0 .myslides .row1 .col2 img {
+        width: 250px;
+    }
+
+    .section4 .footer .col1{
+        width: 200px;
+    }
+}
+
+
+
+@media (max-width:426px){
+
+    /* nav */
+    nav .header .section1-nav a{
+        padding: 10px;
+    }
+
+    /* caroussel */
+    .section1 .row0 .myslides .row1{
+        padding-top: 80px;
+    }
+
+    .section1 .row0 .row1 .col2 img{
+        padding: 10px 0;
+        width: 200px;
+    }
+
+    .section1 .row0 .myslides .row1 .col2 img {
+        width: 200px;
+        padding: 0;
+    }
+
+    /* unlimited dinning table collection */
+    .section5 .row{
+        position: absolute;
+        left: 15%;
+        width: 60vw;
+        margin: auto;
+        padding: 70px 0;
+    }
+
+
+
+    /* latest design tools */
+    .section2 .column .col1{
+        width: 300px;
+        padding: 20px;
+    }
+
+    /* latest blog */
+    .margin-top-100 .column1 .latest .width{
+        width: 210px;
+    } 
+
+    .section3 .column1 .product .width .margin .name{
+        margin: 40px 0 10px 0;
+    }
+
+    /* footer */
+
+    .section4 .footer .row1{
+        flex-direction: column;
+    }
+    .section4 .footer .row2{
+        flex-direction: column;
+    }
+
+    .section4 .footer .col1 .email {
+        width: 230px;
+    }
+
+    .latest .column1 .latest .main-product img{
+        width: 210px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+}
+
+@media (max-width:376px){
+
+    /* carroussel */
+    .section1 .row0 .row1{
+        padding-top: 110px;
+        flex-direction: column;
+    }
+
+    /* latest design tools */
+    .section2 .column .col1{
+        width: 250px;
+        padding: 20px;
+    }
+
+}
+
+@media (max-width:321px){
+
+    /* carrousel */
+    
+    .section1 .row0 .myslides .row1 .col2 img {
+        width: 150px;
+        padding: 0px;
+    }
+    
+
+    /* latest design tools */
+    .section2 .column .col1{
+        width: 200px;
+        padding: 20px;
+    }
+    .section1 .row0 .row1 .col1 .top-heading{
+        font-size: 20px;
+    }
+    .section1 .row0 .row1 .col1 .heading{
+        font-size: 30px;
+        margin: 5px 0;
+    }
+
+    .section1 .row0 .row1 .col1 .buy button{
+        padding: 20px 18px;
+    }
+
+
+}
